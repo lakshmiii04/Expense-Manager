@@ -1,5 +1,4 @@
-import ExpenseItem from "./ExpenseItem";
-
+import ExpenseItem from "./ExpenseItem.jsx";
 function ExpenseList({ expenses, onEdit, onDelete }) {
   return (
     <div className="expense-list">
